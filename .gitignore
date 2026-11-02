@@ -1,0 +1,58 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector store / ChromaDB
+data/chroma/
+chroma/
+**/chroma/
+
+# Uploaded/generated files
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
