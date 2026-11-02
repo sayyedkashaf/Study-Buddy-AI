@@ -35,5 +35,5 @@ def get_db():
 def init_db():
     """Create all tables in the database."""
     # Import all models so they are registered with Base
-    from api.models import user, subject, study_plan, attendance  # noqa: F401
+    from api.models import user, subject, study_plan, attendance, timetable  # noqa: F401
     Base.metadata.create_all(bind=engine)
